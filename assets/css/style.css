@@ -24,3 +24,36 @@ h2 {
     float:left;
     font-size:200%;
 }
+
+#menu{
+    font-size: 110%;
+    letter-spacing:4px;
+    justify-content: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#menu li{
+    float:right;
+    position:relative;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#hero-outer{
+    height:600px;
+    width:100%;
+    overflow: hidden;}
+
+#hero-image{
+    height:600px;
+    width:100%;
+    background: url('../images/hero-image.webp') no-repeat center center;
+    animation: hero-zoom 7s forwards; /*animation applied to the hero-image*/
+}
+
+/* creating the level of zoom for the hero-image animation */
+@keyframes hero-zoom {
+    from {transform: scale(1);}
+    to {transform: scale(1.25);}
+}
