@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap');
 
+html{background-color: whitesmoke;}
 * {
     margin: 0;
     padding: 0;
@@ -34,9 +35,11 @@ h2 {
     flex-wrap: wrap;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
+
 #menu li {
     float: right;
     position: relative;
@@ -52,6 +55,7 @@ h2 {
 #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
+
 #hero-outer {
     height: 600px;
     width: 100%;
@@ -109,21 +113,18 @@ h2 {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: whitesmoke;
 }
 
 #right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: whitesmoke;
 }
 
 #centre-about {
     padding-top: 30px;
     width: 33%;
     margin: 0 auto;
-    background-color: whitesmoke;
 }
 
 .left-about-heading {
@@ -134,10 +135,27 @@ h2 {
     margin-bottom: 50px;
 }
 
+.right-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading h2 {
+    text-align: right;
+}
+
+.right-about-heading p {
+    text-align: right;
+}
 hr {
     border-top: 1px solid #3a3a3a;
     width: 100%;
     margin: 5px;
 }
 
-.active{border-bottom: 1px solid #3a3a3a;}
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
