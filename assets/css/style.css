@@ -282,8 +282,14 @@ footer {
     hr {
         display: none;
     }
+
     /*Applying meeting time changes to 1200px and below (tablet/mobile devices)*/
-    #times > div{width:100%;clear:both;height:150px;padding: 10px;}
+    #times>div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 10px;
+    }
 
 }
 
@@ -324,5 +330,17 @@ footer {
     .right-about-heading p {
         padding: 0 20px;
         text-align: center;
+    }
+
+    /*Changing gallery content placement for mobile devices*/
+    #photos {
+        column-count: 3;
+    }
+}
+
+/*new size for small mobile screens*/
+@media screen and (max-width:800px) {
+    #photos {
+        column-count: 2;
     }
 }
