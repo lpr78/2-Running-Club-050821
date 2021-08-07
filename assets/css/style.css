@@ -246,13 +246,80 @@ footer {
     column-gap: 0;
 }
 
-#photos > img {width:100%;}
+#photos>img {
+    width: 100%;
+}
 
-@media screen and (max-width:1200px) /*applying structure changes to tablet size*/
-{
-    #club-ethos {width:65%; height:1200px;margin: 0 auto;}
-    #welcome {padding:30px 0;margin:0;}
-    #left-about, #right-about {width:100%;float:left;padding:0;}
-    #center-about {clear:both;width:100%;float:left;padding:0;}
-    hr{display:none;}
+@media screen and (max-width:1200px)
+
+/*applying structure changes to tablet size*/
+    {
+    #club-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #welcome {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-about,
+    #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #centre-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
+}
+
+/*applying structure changes to smart phone size*/
+@media screen and (max-width:950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    /*Change image text box on index page for mobile devices*/
+    #cover-text {
+        left: 0;
+    }
+
+    /*Club ethos changes*/
+    #club-ethos {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-about-heading,
+    .right-about-heading {
+        width: inherit;
+    }
+
+    .left-about-heading h2,
+    .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p,
+    .right-about-heading p {
+        padding: 0 20px;
+        text-align: center;
+    }
 }
