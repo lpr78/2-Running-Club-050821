@@ -189,3 +189,10 @@ hr {
     animation: hero-zoom 7s forwards; /*animation applied to the centre-image*/
 
 }
+
+#times /*Event times image addition*/{
+    background: url('../images/dublin-city.webp') no-repeat center;
+    background-size: cover;
+    width:100%;
+    overflow: hidden;
+}
