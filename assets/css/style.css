@@ -282,6 +282,9 @@ footer {
     hr {
         display: none;
     }
+    /*Applying meeting time changes to 1200px and below (tablet/mobile devices)*/
+    #times > div{width:100%;clear:both;height:150px;padding: 10px;}
+
 }
 
 /*applying structure changes to smart phone size*/
