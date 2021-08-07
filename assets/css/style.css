@@ -71,8 +71,7 @@ h2 {
     height: 600px;
     width: 100%;
     background: url('../images/hero-image.webp') no-repeat center center;
-    animation: hero-zoom 7s forwards;
-    /*animation applied to the hero-image*/
+    animation: hero-zoom 7s forwards; /*animation applied to the hero-image*/
 }
 
 /* creating the level of zoom for the hero-image animation */
@@ -82,7 +81,7 @@ h2 {
     }
 
     to {
-        transform: scale(1.25);
+        transform: scale(1.1);
     }
 }
 
@@ -187,5 +186,6 @@ hr {
     background: url('../images/ethos-center-image.jpeg') no-repeat center center;
     height:100%;
     border-radius: 50%;
+    animation: hero-zoom 7s forwards; /*animation applied to the centre-image*/
 
 }
